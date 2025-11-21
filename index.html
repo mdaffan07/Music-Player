@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.x.x/css/all.min.css"/> -->
+    <script src="https://kit.fontawesome.com/4fe1ded076.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="music-card">
+        <div class="music-card-image">
+            <img src="" alt="music-card-image">
+        </div>
+        <div class="music-title">
+            <p class="song_title">Song Title</p>
+            <p class="song_artist">Artist Name, Artist Name</p>
+        </div>
+        <div class="progress-bar">
+            <p id="start-progress">00:00</p>
+            <input type="range" name="progress" id="progress" value="0" min="0" max="100">
+            <p id="end-progress">00:00</p>
+        </div>
+        <div class="control-bar">
+            <button id="shuffle"><i class="fa-solid fa-shuffle"></i></button>
+            <button id="preview"><i class="fa-solid fa-backward"></i></button>
+            <button id="play-pause"><i class="fa-solid fa-play"></i></button>
+            <button id="next"><i class="fa-solid fa-forward"></i></button>
+            <button id="repeat"><i class="fa-solid fa-repeat"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
