@@ -40,7 +40,6 @@ function loadSong(index) {
 
     audio.onloadedmetadata = function () {
         progress.max = audio.duration;
-        // FIX 1: Changed 'formatTime' to 'timeFormat' to match your function name below
         endProgress.textContent = timeFormat(audio.duration);
     };
 }
