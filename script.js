@@ -22,6 +22,12 @@ const songs = [
         artist: "Alan Walker",
         src: "src/Alan_Walker_-_Alone.mp3",
         image: "src/alone-image.jpg"
+    },
+    {
+        title: "All-Falls-Down",
+        artist: "Alan Walker",
+        src: "src/All_Falls_Down_vyrezka_3_(mp3.pm).mp3",
+        image: "src/All-Falls-Down.jpg" 
     }
 ]
 
@@ -113,7 +119,7 @@ audio.addEventListener("ended", function () {
         audio.play();
     } else {
         // FIX 2: Changed 'nextBtn' to 'next' because your variable name is 'next'
-        next.click(); 
+        next.click();
     }
 });
 
